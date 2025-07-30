@@ -56,13 +56,13 @@ html {
 }
 
 .inicio .contenido-seccion header .logo .color {
-    color: #021776;
+    color: #e7e716;
     font-family: 'Yellowtail';
 }
 
 .inicio .contenido-seccion header .nav-bar {
     position: fixed;
-    background-color: #021776;
+    background-color:#e7e716;
     font-size: 20px;
     width: 50px;
     height: 50px;
@@ -101,8 +101,8 @@ html {
     display: inline-block;
     text-decoration: none;
     background-color: #000;
-    color: #021776;
-    border: 1px solid #021776;
+    color: #e7e716;
+    border: 1px solid #e7e716;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -360,7 +360,7 @@ text-decoration: overline;
 }
 
 .contacto .contenido-seccion .fila .col h2 {
-    color: #021776;
+    color: #e7e716;
 }
 
 /* SECCION RESPONSIVE */
