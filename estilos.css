@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,700;1,600&family=Yellowtail&display=swap');
-
-* {
+ @keyframes scale-down-top-reverse {0% { transform: scale(1); transform-origin: 50% 0%; } 100% { transform: scale(0.5); transform-origin: 50% 0%;} }
+ @keyframes scale-up-center-alternate-reverse {0% { transform: scale(0.5); } 100% { transform: scale(1);} }
+ * {
     font-family: "Titillium web";
     margin: 0;
     padding: 0;
@@ -52,12 +53,14 @@ html {
     font-size: 6.5rem;
     font-family: "Yellowtail";
     text-shadow: 0 0 35px #fff;
-
+    animation: scale-up-center-alternate-reverse 4s ease-in-out 0s infinite alternate-reverse none; 
+    
 }
 
 .inicio .contenido-seccion header .logo .color {
     color: #e7e716;
     font-family: 'Yellowtail';
+    
 }
 
 .inicio .contenido-seccion header .nav-bar {
@@ -71,6 +74,7 @@ html {
     cursor: pointer;
     transition: .3s;
 }
+
 
 .inicio .contenido-seccion header .nav-bar:hover {
     box-shadow: 0 0 35px #fff;
@@ -123,12 +127,13 @@ html {
 
 .inicio .contenido-seccion .foto img {
     max-width: 170px;
-    border-radius: 50%;
+    border-radius: 10%;
     border: 1px solid #e7e716;
     position: absolute;
     left: 50%;
     top: -145px;
     transform: translateX(-50%);
+    box-shadow:  4px 16px 186px 87px rgba(171, 216, 108, 0.89);
 }
 
 /* estilos generales */
@@ -362,6 +367,7 @@ text-decoration: overline;
 
 .contacto .contenido-seccion .fila .col h2 {
     color: #e7e716;
+    animation: scale-down-top-reverse 1s ease-in-out 0s 1 reverse none;
 }
 
 /* SECCION RESPONSIVE */
