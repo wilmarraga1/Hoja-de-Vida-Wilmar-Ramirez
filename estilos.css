@@ -127,12 +127,12 @@ html {
 }
 
 .inicio .contenido-seccion .foto img {
-    max-width: 170px;
-    border-radius: 10%;
+    max-width: 123px;
+    border-radius: 50%;
     border: 1px solid #e7e716;
     position: absolute;
     left: 50%;
-    top: -145px;
+    top: -105px;
     transform: translateX(-50%);
     box-shadow:  4px 16px 186px 87px rgba(171, 216, 108, 0.89);
 }
