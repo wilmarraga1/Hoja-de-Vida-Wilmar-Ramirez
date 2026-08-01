@@ -39,6 +39,7 @@ html {
     text-align: left;
     z-index: 99;
     display: none;
+    
 }
 
 .inicio .contenido-seccion header nav a {
@@ -47,6 +48,7 @@ html {
     text-decoration: none;
     margin-bottom: 10px;
     font-weight: bold;
+    
 }
 
 .inicio .contenido-seccion header .logo {
